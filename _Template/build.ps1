@@ -1,19 +1,21 @@
-$Parameters = @ {
-    'ContentRootPath'            = '';
-    'InstallScriptFilename'      = '';
-    'SiteCode'                   = '';
-    'UserLimitingCollectionId'   = '';
-    'DeviceLimitingCollectionId' = '';
+$Parameters = @{
+    'ContentRootPath'            = '\\corp.ajf8729.com\Shares\Source\APPS';
+    'InstallScriptFilename'      = 'Install.cmd';
+    'SiteCode'                   = 'PS1';
+    'UserLimitingCollectionId'   = 'SMS00002';
+    'DeviceLimitingCollectionId' = 'SMS00001';
     'Type'                       = '';
     'Publisher'                  = '';
     'Name'                       = '';
-    'Architecture'               = '';
-    'Is64bit'                    = '';
-    'EstimatedRuntimeMins'       = '';
-    'MaximumRuntimeMins'         = '';
-    'DPGroupName'                = '';
-    'IsFreeApp'                  = '';
-    'Verbose'                    = ''
+    'Architecture'               = 'x64';
+    'RegKeyName'                 = ''
+    'RegKeyContainsVersion'      = $false;
+    'Is64bit'                    = $true;
+    'EstimatedRuntimeMins'       = '5';
+    'MaximumRuntimeMins'         = '15';
+    'DPGroupName'                = 'ALL';
+    'IsFreeApp'                  = $true;
+    'Verbose'                    = $true
 }
 
 .\New-Application.ps1 @Parameters
