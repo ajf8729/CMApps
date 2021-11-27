@@ -1,0 +1,6 @@
+[Setup]
+Lang=en
+Dir=C:\Program Files\Stellarium
+Group=Stellarium
+NoIcons=0
+Tasks=
