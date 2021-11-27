@@ -1,0 +1,6 @@
+[Setup]
+Lang=default
+Dir=C:\Program Files\ShareX
+Group=ShareX
+NoIcons=0
+Tasks=createcontextmenubutton,createsendtoicon
