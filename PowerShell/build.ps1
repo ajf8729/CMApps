@@ -16,4 +16,4 @@ $Parameters = @{
     'Verbose'                    = $true
 }
 
-.\New-Application.ps1 @Parameters
+New-Application @Parameters
